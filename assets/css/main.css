@@ -186,26 +186,39 @@ img {
 }
 
 .contact-shell {
-  max-width: 460px;
+  max-width: 540px;
   width: 100%;
   text-align: center;
 }
 
-.contact-logo img {
-  height: 54px;
-  margin: 0 auto 24px;
+.contact-logo {
+  display: block;
+  width: 240px;
+  max-width: 70%;
+  height: auto;
+  margin: 0 auto 36px;
+}
+
+.contact-intro {
+  max-width: 520px;
+  margin: 0 auto 42px;
+  line-height: 1.7;
 }
 
 .contact-links {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 14px;
 }
 
 .contact-links a {
   color: var(--text);
   font-size: 1rem;
-  padding: 6px 0;
+  padding: 4px 0;
+}
+
+.contact-links a:first-child {
+  font-weight: 400;
 }
 
 .contact-links a:hover {
