@@ -28,6 +28,8 @@
             <nav class="site-nav" aria-label="Primary navigation">
               <a href="index.html" data-nav="documentary" class="${page === "documentary" ? "active" : ""}">Documentary</a>
               <a href="gallery.html" data-nav="portraits" class="${page === "portraits" ? "active" : ""}">Portraits</a>
+              <a href="products.html" data-nav="products" class="${page === "products" ? "active" : ""}">Products</a>
+              <a href="architecture.html" data-nav="architecture" class="${page === "architecture" ? "active" : ""}">Architecture</a>
               <a href="contact.html" data-nav="contact" class="${page === "contact" ? "active" : ""}">Contact</a>
             </nav>
           </div>
